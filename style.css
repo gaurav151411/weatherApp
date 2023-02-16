@@ -1,0 +1,133 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
+li{
+    list-style: none;
+    margin: 2rem;
+    font-size: 20px;
+
+}
+
+#nav{
+    background-color: #346E4A;
+    padding-top:0.5em ;
+    width: 9em;
+    height: 1.8em;
+    text-align: center;
+    border-radius: 5px;
+
+}
+ /* e9e9e9 */
+ul{
+    display: flex;
+}   
+.footer{
+    background-color: #346E4A;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow: black;
+    border: 2px solid blueviolet;
+    
+}
+.heading{
+    display:block;
+    background-color:#346E4A;
+    background-image: url("./new-delhi-india-NEWDELHITG0721-60d592e1603349298a0206d67d08582b.jpeg");
+    padding-top:2em;
+    padding-bottom: 2em;
+
+}
+img[src="https://raw.githubusercontent.com/goelabhishek694/learnMERN/main/html/website/images/lap.jpeg"]{
+    height: 100vh;
+    width:  96vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#navdiv{
+    background: #99cbeb;
+    margin: 0%;
+}
+h1{
+    font-size: 2em;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+
+
+.footer>p{
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills{
+    display: flex;
+
+}
+.skills>div{
+    text-align: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-right:3rem;
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    /* for before and after visiting,maikg color same */
+     color: antiquewhite;
+   text-decoration: none;
+}
+a:hover{
+    color: rgb(233, 150, 233);
+    text-decoration:none;
+    
+}
+
+.temp{
+    margin-left: 2em;
+    padding-top: -4em;
+}
+
+#india{
+    margin-top: 2.5em;
+    margin-left:-9em;
+}
+
+#weatherAtt{
+    /* background-color: aqua; */
+    border: 4px solid rgb(241, 177, 50);
+    padding: 2em;
+}
+#weatherAtt:hover{
+    background-color:  #e5736b;
+}
+
+.zoom {
+    padding: 20px;
+    transition: transform .2s; 
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  
+.zoom:hover {
+    transform: scale(1.5); 
+}
+
+.live{
+    padding-top: 3em;
+}
+
+li p,span{
+    color: rgb(244, 240, 234);
+}
+
+
